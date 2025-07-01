@@ -41,10 +41,10 @@ export default function ChatScreen() {
             }`}
           >
             <div
-              className={`px-4 py-2 rounded-lg inline-block ${
+              className={`px-4 py-2 rounded-lg inline-block text-white break-words break-all max-w-[80%] ${
                 msg.from === "user"
-                  ? "bg-blue-200 text-right"
-                  : "bg-gray-300 text-left"
+                  ? "bg-blue-400 text-start"
+                  : "bg-gray-500 text-start"
               }`}
             >
               {msg.text}
